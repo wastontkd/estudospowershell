@@ -1,1 +1,1 @@
-([xml](new-object net.webclient).DownloadString("http://blogs.msdn.com/powershell/rss.aspx")) .rss.channel.item | Format-Table title, link
+([xml](new-object net.webclient).DownloadString("http://saladeimprensa.vale.com/Paginas/RSS.aspx")) .rss.channel.item | Format-Table title, links
